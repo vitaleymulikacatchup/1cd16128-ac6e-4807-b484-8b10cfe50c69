@@ -6,8 +6,10 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
 
-const assetMap = /* provided JSON array */;
-// const assetMap = [{ "id": "hero-image", "url": "https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Colorful pink crust pizza with vegetables and herbs on a wooden platter. Perfect for food lovers." }, { "id": "contact-image", "url": "https://images.pexels.com/photos/6150432/pexels-photo-6150432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "A group of diverse friends laughing and enjoying pizza together indoors." }];
+const assetMap = [
+  {"id":"hero-image","url":"https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Colorful pink crust pizza with vegetables and herbs on a wooden platter. Perfect for food lovers."},
+  {"id":"contact-image","url":"https://images.pexels.com/photos/6150432/pexels-photo-6150432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A group of diverse friends laughing and enjoying pizza together indoors."}
+];
 
 export default function Home() {
   return (
